@@ -73,9 +73,9 @@
             
             let mensagemCodificada = window.encodeURI(mensagem);
 
-            // window.location.href = `https://wa.me/55${telefone}?text=${mensagemCodificada}`;
+            window.location.href = `https://wa.me/55${telefone}?text=${mensagemCodificada}`;
 
-            window.alert(`${dia}/${mes}/${ano} ${hora}:${minuto} - ${nome} ${placa.toUpperCase()}`);
+            // window.alert(`${dia}/${mes}/${ano} ${hora}:${minuto} - ${nome} ${placa.toUpperCase()}`);
 
             document.getElementById("nome").value = "";
             document.getElementById("telefone").value = "";
